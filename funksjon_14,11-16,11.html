@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: tomato;
+            width: 50px;
+            height: 50px;
+        }
+        div:hover {
+            background-color: chocolate;
+            cursor: grab;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <script>
+            function tilfeldigHilsen() {
+            // Mulige hilsener
+            let hilsener = ["Hei", "Hallo", "God dag"];
+
+            // Velg en tilfeldig hilsen fra listen
+            let tilfeldigHilsen = hilsener[Math.floor(Math.random() * hilsener.length)];
+
+            // Skriv ut hilsenen i konsollen eller på siden
+            console.log(tilfeldigHilsen);
+            document.write("<p>" + tilfeldigHilsen + "</p>");
+        }
+
+        // Kall funksjonen når siden lastes
+        tilfeldigHilsen();
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+#posisjonert {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+    top: 480px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: yellow;
+    border-style: solid;
+  }
+
+  #posisjonert_2 {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    position: absolute;
+    left: 300px;
+    top: 480px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: green;
+    border-style: solid;
+    
+  }
+
+  #posisjonert_3 {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    position: absolute;
+    left: 0px;
+    top: 380px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: blue;
+    border-style: solid;
+  }
+
+  #posisjonert_4 {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    position: absolute;
+    left: 200px;
+    top: 380px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+  }
+
+  #posisjonert_5 {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    position: absolute;
+    left: 400px;
+    top: 380px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+  }

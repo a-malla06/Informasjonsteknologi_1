@@ -1,0 +1,76 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.dice {
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    margin: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+    background: white;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.overskrift {
+    color: white;
+    text-align: center;
+}
+
+.overskrift_2 {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: white; 
+}
+
+#column_left {
+    width: 60%;
+    display: inline-block;
+}
+
+#column_right {
+    width: 35%;
+    vertical-align: top;
+    color: black;
+    margin-top: 30px;
+    height: 720px;
+    border: 10px solid black;
+    margin-right: 40px;
+    display: none;
+    background-color: white;
+}
+
+button:hover {
+    scale: 1.30;
+}

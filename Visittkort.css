@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  }
+  label {
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: darkgray;
+  }
+  button:active {
+    background-color: white;
+  }
+  #Visitt {
+    position: absolute;
+    top: 40%;
+    left: auto;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: solid black 3px;
+  }
+  #Visitt > div {
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  #Visitt-firma{
+    left: 5px;
+  }
+
+  #Visitt-navn {
+    top: 20px;
+    left: 5px;
+  }
+
+  #Visitt-stilling{
+    top: 40px;
+    left: 5px;
+  }
+
+  #Visitt-adresse {
+    top: 60px;
+    left: 5px;
+  }
+
+  #Visitt-telefonnummer {
+    top: 80px;
+    left: 5px;
+  }
+
+  #Visitt-email {
+    top: 100px;
+    left: 5px;
+  }

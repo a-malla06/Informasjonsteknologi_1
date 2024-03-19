@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visittkortgenerator</title>
+  <link rel="stylesheet" href="Visittkort.css">
+</head>
+<body>
+  <div id="overskrift">
+    <h1>Lag din visittkort</h1>
+  </div>
+  <div id="dataDiv">
+    <div>
+      <h2>Tilpassning:</h2>
+      <label for="firma">Firma:</label>
+      <input name="firma" id="firmaInp" type="text" oninput="oppdater('firma')">
+    </div>
+    <div>
+      <label for="navn">Navn:</label>
+      <input name="navn" id="navnInp" type="text" oninput="oppdater('navn')">
+    </div>
+    <div>
+      <label for="stilling">Stilling</label>
+      <input name="stilling" id="stillingInp" type="text" oninput="oppdater('stilling')">
+    </div>
+    <div>
+      <label for="adresse">Adresse:</label>
+      <input name="adresse" id="adresseInp" type="text" oninput="oppdater('adresse')">
+    </div>
+    <div>
+      <label for="telefonnummer">Telefonnummer:</label>
+      <input name="telefonnummer" id="telefonnummerInp" type="tel" oninput="oppdater('telefonnummer')">
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input name="email" id="emailInp" type="email" oninput="oppdater('email')">
+    </div>
+    <div>
+      <label for="color">Color:</label>
+      <input name="color" id="colorInp" type="color" onchange="oppdater('color')">
+    </div>
+  </div>
+  <div id="Visitt">
+    <div></div>
+    <div id="Visitt-firma"></div>
+    <div id="Visitt-navn"></div>
+    <div id="Visitt-stilling"></div>
+    <div id="Visitt-adresse"></div>
+    <div id="Visitt-telefonnummer"></div>
+    <div id="Visitt-email"></div>
+  </div>
+  <script>
+    function oppdater(element) {
+      let VisittElement = document.getElementById("Visitt");
+      if (element === 'color') {
+        VisittElement.style.backgroundColor = document.getElementById(element + "Inp").value;
+      } else {
+        let targetElement = document.getElementById("Visitt-" + element);
+        targetElement.innerHTML = document.getElementById(element + "Inp").value;
+      }
+    }
+  </script>
+</body>
+</html>
